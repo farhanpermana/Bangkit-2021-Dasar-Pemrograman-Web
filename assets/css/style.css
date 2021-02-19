@@ -127,7 +127,7 @@ aside {
 
 /* Aside :: food Detail Content */
 aside .food-detail {
-    padding-left: 50px;
+    padding-left: 28px;
     padding-right: 50px;
 }
 
@@ -174,7 +174,7 @@ aside .food-detail .food-detail-content .food-detail-content-image {
 }
 
 aside .profile-detail {
-    padding-left: 50px;
+    padding-left: 28px;
     padding-right: 50px;
 }
 
@@ -248,7 +248,7 @@ article.food-card .food-card-info {
 article.food-card .food-card-info-rating {
     margin-left: 26px;
     font-size: 12px;
-    color: #ffd000;
+    color: #ffc75f;
 }
 
 article.food-card .food-card-info-time {
@@ -293,8 +293,7 @@ footer {
 }
 
 footer .card {
-    border: 1px solid #f0f0f0;
-    border-radius: 5px;
+    border-top: 1px solid #f0f0f0;
     margin: 0 4px 4px 4px;
     padding: 10px;
 }
@@ -354,15 +353,13 @@ table tr td {
         display: inline-block;
     }
 
-    article.food-card .food-card-info-time,
+    article.food-card .food-card-info-rating,
     article.food-card .food-card-info-title,
-    article.food-card .food-card-info-author {
+    article.food-card .food-card-info-harga,
+    article.food-card .food-card-info-jarak {
         margin-left: 0px;
     }
 
-    article.food-card .food-card-info-time {
-        margin-top: 10px;
-    }
 }
 
 @media screen and (max-width: 806px) {
